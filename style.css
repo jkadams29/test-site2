@@ -1,5 +1,7 @@
 /* Test Site Styles */
 
+/* Universal */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -65,14 +67,22 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
+    /* border: solid 1px blue; */
+    align-items: center;
+    padding: 50px 0;
 }
 
 .info-boxes {
+    max-width: 900px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 10px;
-    
+    /* border: solid 1px red; */
+}
+
+.box {
+    width: 225px;
+    /* border: solid 1px green; */
 }
 
 .info h2 {
@@ -80,19 +90,28 @@ h1 {
 }
 
 .box-img {
-    max-width: 225px;
+    max-width: 200px;
     height: auto;
+    border: solid 2px green;
+    border-radius: 5px;
 }
 
 /* Quote Section */
 
 .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 16px;
+    padding: 50px 25px; 
 }
 
 .quote-box {
-    /* max-width: 930px; */
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    flex: 1;
+    
 }
 
 .quote-text {
@@ -101,8 +120,39 @@ h1 {
     font-style: italic;
 }
 
+.quote-author {
+    text-align: right;
+}
+
 /* Modal Section */
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 24px 100px;
+    color: white;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    min-width: 400px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.modal div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 100px;
+}
+
+.modal button {
+    border: solid 1px white;
+    border-radius: 5px;
+}
 
 /* Footer */
 
