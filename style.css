@@ -1,0 +1,127 @@
+/* Test Site Styles */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+/* Header & Hero */
+
+.top-container, .footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
+}
+
+.hero-text {
+    font-size: 18px;
+    margin-top: 0;
+ }
+
+.hero h1 {
+    margin-bottom: 0;
+}
+
+/* Info Section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+.info h2 {
+    text-align: center;
+}
+
+.box-img {
+    max-width: 225px;
+    height: auto;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 16px;
+}
+
+.quote-box {
+    /* max-width: 930px; */
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Modal Section */
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Buttons */
+
+button {
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* * {
+    border: solid 1px red;
+} */
